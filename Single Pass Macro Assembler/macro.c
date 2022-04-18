@@ -24,7 +24,7 @@ char arg[20],mne[20],opnd[20],la[20],name[20],mne1[20],opnd1[20],pos1[10],pos2[2
             while(strcmp(mne, "MEND") != 0){
                 if(opnd[0] == '&'){
                     itoa(pos,pos1,10);
-                    strcpy(pos2,"?");
+                    strcpy(pos2,"N");
                     strcpy(opnd,strcat(pos2,pos1));
                     pos++;
                 }
