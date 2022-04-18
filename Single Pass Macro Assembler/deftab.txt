@@ -1,4 +1,4 @@
 EX1	&A,&B
-LDA	N0
-STA	N1
+LDA	?0
+STA	?1
 MEND
