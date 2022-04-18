@@ -1,4 +1,4 @@
 # System-Software
-## CST303/CSL305
+## CST305/CSL331
 
 KTU S5 CSE 2019 Scheme, System Software Programs.
