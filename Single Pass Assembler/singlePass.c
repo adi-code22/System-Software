@@ -67,7 +67,7 @@ int main(){
         if(strcmp("**", str1) != 0){
             fprintf(f2, "%s %d\n", str1, start1);
             ptr = start;
-            while(ptr->next != NULL){
+            while(ptr != NULL){
                 if(strcmp(ptr->symb, str1) == 0){
                     ptr->symvalue = start1;
                     break;

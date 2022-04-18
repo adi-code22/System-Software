@@ -38,10 +38,10 @@ int main(){
         if(strcmp("**", str1) != 0){
             fprintf(f2, "%s\t%d\n", str1, start);
         }
-        if(strcmp("RESW", str1) == 0){
+        if(strcmp("RESW", str2) == 0){
             start += (3 * atoi(str3));
         }
-        else if(strcmp("RESB", str1) == 0){
+        else if(strcmp("RESB", str2) == 0){
             start += atoi(str3);
         }
         else{
